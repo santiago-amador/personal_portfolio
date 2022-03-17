@@ -1,0 +1,159 @@
+/* CSS HEX 
+--charcoal: #233d4dff;
+--pumpkin: #fe7f2dff;
+--sunglow: #fcca46ff;
+--olivine: #a1c181ff;
+--polished-pine: #619b8aff;
+*/
+
+/* CSS HSL 
+--charcoal:hsla(203, 37%, 22%, 1);
+--pumpkin: hsla(24, 99%, 59%, 1);
+--sunglow: hsla(44, 97%, 63%, 1);
+--olivine: hsla(90, 34%, 63%, 1);
+--polished-pine: hsla(162, 23%, 49%, 1);
+*/
+
+/* SCSS HEX 
+$charcoal: #233d4dff;
+$pumpkin: #fe7f2dff;
+$sunglow: #fcca46ff;
+$olivine: #a1c181ff;
+$polished-pine: #619b8aff;
+*/
+
+/* SCSS HSL 
+$charcoal: hsla(203, 37%, 22%, 1);
+$pumpkin: hsla(24, 99%, 59%, 1);
+$sunglow: hsla(44, 97%, 63%, 1);
+$olivine: hsla(90, 34%, 63%, 1);
+$polished-pine: hsla(162, 23%, 49%, 1);
+*/
+
+/* SCSS RGB 
+$charcoal: rgba(35, 61, 77, 1);
+$pumpkin: rgba(254, 127, 45, 1);
+$sunglow: rgba(252, 202, 70, 1);
+$olivine: rgba(161, 193, 129, 1);
+$polished-pine: rgba(97, 155, 138, 1);
+*/
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-right: linear-gradient(90deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-bottom: linear-gradient(180deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-left: linear-gradient(270deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-top-right: linear-gradient(45deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-bottom-right: linear-gradient(135deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-top-left: linear-gradient(225deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-bottom-left: linear-gradient(315deg, #233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+$gradient-radial: radial-gradient(#233d4dff, #fe7f2dff, #fcca46ff, #a1c181ff, #619b8aff);
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0px;
+    width: 100%;
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#navbar .nav-logo {
+    justify-content: flex-start;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px;
+}
+.nav-logo span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+#navbar ul {
+    display: flex;
+    justify-content: end;
+}
+#navbar li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto 12px auto 12px; 
+}
+#navbar a:link {
+    color: black ;
+    text-decoration: none;
+}
+#navbar a:visited {
+    color: black;
+}
+#navbar a:active {
+    color: black;
+    text-decoration: none;
+}
+#navbar .ctaButton {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto 12px;
+    padding: 7px 28px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.ctaButton {
+    background: rgba(0, 105, 255, 1);
+    border: 0px transparent;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: row;
+}
+#welcome-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+#welcome-section .headline-copy {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    padding: 20px 90px;
+    font-family: 'Inter', sans-serif;
+}
+#welcome-section .subtitle {
+    font-size: 19px;
+    font-weight: 500;
+}
+#welcome-section img {
+    width: 50%;
+    height: fit-content;
+    display: inline-block;
+    vertical-align: center;
+    margin-top: 120px;
+
+}
+#welcome-section .ctaButton {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    margin: 10px auto auto 0px;
+    padding: 7px 28px 7px 28px;
+}
